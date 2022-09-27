@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+    <title>Grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+     .container
+            {
+            
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows:  auto 1fr auto   ;
+            }
+    
+    .content
+        {
+            background-color: rgb(219, 219, 219);
+            color: black;
+        }
+    
+        
+    img{
+        height: 150px;
+        width: 150px;
+        padding-top: 10px;
+        border-radius: 80px;
+        }
+    .intro
+        {
+            color: black;
+            text-align: center;
+            padding: 30px;
+            background-color: #0ba6e4;
+        }
+    .details
+        {
+            background-color: black;
+            color: white;
+            padding: 20px;
+
+        }
+    .details , head{
+            
+            border-bottom: 1px solid white;
+        }
+        .content{
+            padding: 30px;
+            text-align: justify;
+        }
+        .menu
+        {
+            display: flex;
+            margin: 10px;
+        }
+        .menu , i{
+            margin-right: 30px;
+            align-items: center;
+        }
+        .discription{
+            display: flex;
+            padding: 20px;
+            justify-content: space-evenly;
+            text-transform: uppercase;
+
+        }
+        h2{
+            text-transform: uppercase;
+        }
+        .level
+        {
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .refer {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .personal {
+            display: flex;
+        }
+        .personal 
+        {
+            padding-bottom: 20px;
+            
+        }
+        .muted{
+            color: grey;
+        }
+        .personal , .pad {
+            padding: 22px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="sidebar">
+           <div class="intro">
+            <img src="p1.jpeg" alt="">
+            <h1>Sehran Rasool Jan</h1>
+            <h4>Web-Developer</h4>
+           </div>
+           <!-- details start -->
+           <div class="details">
+                <div class="menu">
+                    <i class='fa fa-user blue-color'></i>
+                    <h2>Contact</h2>
+                </div> 
+            <hr> <br>
+            <div class="personal">
+                <div>
+                    <i class='fa fa-phone blue-color'></i>
+                </div>
+                <div>
+                    <h3>Phone</h3>
+                    <p class="muted">Lorem, ipsum dolor.</p>
+                </div>
+            </div> 
+            
+            <div class="personal">
+                <div>
+                    <i class='fa fa-envelope  blue-color'></i>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p class="muted">Lorem, ipsum dolor.</p> 
+                </div>
+            </div>   
+
+            <div class="personal">
+                <div>
+                    <i class='fa fa-home blue-color'></i>
+                </div>
+                <div>
+                    <h3>Address</h3>
+                    <p class="muted">Lorem, ipsum dolor.</p>
+                </div>
+            </div>   
+            <div class="menu">
+                <i class='fa fa-graduation-cap blue-color'></i>
+                <h2>Education</h2>
+            </div>
+            <hr>
+            <div class="personal">
+                <div>
+                    <i class='fa fa-book  blue-color'></i>
+                </div>
+                <div>
+                    <h4>2017-2020</h4> 
+                    <h4>Polytechnic</h4> 
+                    <p class="muted">K.G Polytechnic</p>
+                </div>
+            </div>
+
+
+            <div class="personal">
+                <div>
+                    <i class='fa fa-book  blue-color'></i>
+                </div>
+                <div>
+                    <h4>2020-2023</h4> 
+                    <h4>B.Tech</h4> 
+                    <p class="muted">PCTE Ludhiana </p>
+                </div>
+            </div>
+
+            <!-- .........language start...... -->
+            <div class="menu">
+                <i class='fa fa-globe  blue-color'></i>
+                <h2>language</h2>
+            </div>
+            <hr>
+            <div class="personal pad">
+                <div>
+                    <ul>
+                        <li>English</li>
+                        <li>Urdu</li>
+                        <li>Kahmiri</li>
+                    </ul>
+                </div>
+                <div>
+                    <input type="range"> <br>
+                    <input type="range"> <br>
+                    <input type="range"> <br>
+                </div>
+            </div>
+
+        </div>     
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- .....Section content start........... -->
+        <div class="content">
+            <div class="section">
+                    <div class="menu">
+                        <i class='fa fa-user blue-color'></i>
+                        <h2>PROFILE INFO</h2>
+                    </div>
+                <hr>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, reprehenderit ipsa perspiciatis beatae ex accusantium illo quasi voluptatem omnis voluptates! Perferendis, itaque perspiciatis rerum et error labore libero possimus eveniet quis doloribus velit obcaecati sequi 
+            </div>
+           <div class="section">
+                <div class="menu">
+                    <i class='fa fa-briefcase blue-color'></i>
+                    <h2>work experience</h2>
+                </div>
+            <hr>
+          <!-- discription start -->
+                    <div class="discription">
+                       
+                        <div class="header">
+                           <h4>  <i class='fa fa-envira blue-color'></i>junior Web-Developer</h4>
+                        </div>
+                        <div class="date">
+                            2012-2015
+                        </div>
+                    
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere at optio hic quisquam veniam possimus sed assumenda excepturi? Dolorem quasi tempora, asperiores ad nihil error laborum voluptatem ab, placeat blanditiis repudiandae, dicta amet obcaecati maiores. Itaque eum quam ad impedit harum amet rem necessitatibus, explicabo ducimus dicta eaque natus mollitia!</p>
+                    
+
+        <div class="discription">
+            
+            <div class="header">
+                <h4>  <i class='fa fa-envira blue-color'></i>senior Web-Developer</h4>
+            </div>
+            <div class="date">
+                2012-2015
+            </div>
+          
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere at optio hic quisquam veniam possimus sed assumenda excepturi? Dolorem quasi tempora, asperiores ad nihil error laborum voluptatem ab, placeat blanditiis repudiandae, dicta amet obcaecati maiores. Itaque eum quam ad impedit harum amet rem necessitatibus, explicabo ducimus dicta eaque natus mollitia!</p>
+           </div>
+            
+        <div class="discription">
+
+            <div class="header">
+              <h4>  <i class='fa fa-envira blue-color'></i> Managing director</h4>
+            </div>
+            <div class="date">
+                2012-2015
+            </div>
+          
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere at optio hic quisquam veniam possimus sed assumenda excepturi? Dolorem quasi tempora, asperiores ad nihil error laborum voluptatem ab, placeat blanditiis repudiandae, dicta amet obcaecati maiores. Itaque eum quam ad impedit harum amet rem necessitatibus, explicabo ducimus dicta eaque natus mollitia!</p>
+          <div class="menu">
+            <i class='fa fa-snowflake-o blue-color'></i>
+            <h2>My Skills And Expertise</h2>
+           </div>
+           <hr>
+           <div class="level">
+                <div>
+                    Graphic Designing <br>
+                    <input type="range"><br>
+                    Web-Design <br>
+                    <input type="range"> <br>
+                    video Editing <br>
+                    <input type="range"> <br>
+                </div>
+                <div>
+                    Branding
+                    <br>
+                    <input type="range"> <br>
+                    Photography <br>
+                    <input type="range"> <br>
+                    SEO & Marketing <br>
+                    <input type="range">
+                </div>
+        </div>
+
+        <div class="menu">
+            <i class='fa fa-users blue-color'></i>
+            <h2>my reference</h2>
+        </div>
+           <hr>
+           <div class="refer">
+            <div>
+                <h3>Kapil Prasher</h3>
+                  <br>
+                Ludhiana Punjab , <br> India
+            </div>
+            <div>
+               <h3> S.K Gandhi</h3>
+                 <br>
+                Ludhiana Punjab , <br>
+                 India
+            </div>
+           </div>
+
+        
+
+
+           </div>
+           
+        </div>
+        
+
+    </div>
+</div>
+    </div>
+
+    </div>
+</body>
+</html>
